@@ -79,10 +79,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\dictionaries\en-AU.aff" />
-    <Content Include="App_Data\dictionaries\en-AU.dic" />
-    <Content Include="App_Data\dictionaries\th_en_US_v2.dat" />
-    <Content Include="App_Data\dictionaries\th_en_US_v2.idx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -95,6 +91,9 @@
       <Project>{38a1ce77-5442-495c-8deb-e082f9461815}</Project>
       <Name>SearchEngine</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\dictionaries\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
